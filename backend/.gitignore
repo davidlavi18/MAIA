@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+serviceKey.json
+credential*
+
+# Local data and runtime output
+mongo_data/
+waha_sessions/
+call_logs/
+celerybeat-schedule
+
+# Editors
+.vscode/
+.idea/
+.DS_Store
+
+# Local compose files
+docker-compose.yml
